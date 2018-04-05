@@ -268,7 +268,14 @@ nav a:hover {
 
 /* Agent's Forum */
 
+.jumbo{
+  display: flex;
+}
 
+.agent-forum-bottom{
+  flex-direction: column;
+  padding-top: 1.3rem;
+}
 
 /* Media Queries */
 
