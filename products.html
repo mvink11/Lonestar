@@ -3,6 +3,9 @@
   <head>
     <link href="./resources/css/reset.css" type="text/css" rel="stylesheet"/>
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <meta charset="utf-8">
     <title>Lonestar MGA</title>
   </head>
@@ -18,7 +21,7 @@
       <div class="dropdown">
         <button class="dropbtn">Products</button>
         <div class="dropdown-content">
-          <a href="#">Personal Auto</a>
+          <a href="products.html">Personal Auto</a>
         </div>
       </div>
       <!-- Request a quote -->
@@ -58,8 +61,17 @@
             <p>With Lonestar you'll get a product that pays you a commission of 15% on new business and 12% on renewals with higher commissions available.</p>
             <p>When quoting either of Lonestar's personal auto products (standard or limited) you can forget about your customer's Credit Score because Lonestar doesn't consider credit when determining the proper rate. Our rates are competitive for all regardless of credit.</p>
 
-            <p>Find out how Lonestar MGA can save your customers money on their Auto Insurance.</p>
-            <button>Click to learn more</button>
+            <button class="learn-more">Find out how Lonestar MGA can save your customers money on their Auto Insurance.</button>
+            <button class="accordian">Discounts</button>
+              <div class="panel">
+                <ol>
+                  <li>Multi-Car Discount - 20%</li>
+                  <li>Home Owner's Discount - 5%</li>
+                  <li>Prior Coverage Discount - 15%</li>
+                  <li>Renewal Discount - 6% (Every 6 Months)</li>
+                  <li>Paid In Full Discount - 5% (Applies ONLY to 6-Month Policy Terms)</li>
+
+              </div>
           </div>
 
           <div class="save-money">
@@ -120,5 +132,6 @@
       </footer>
     </div>
 
+  <script src="accordian.js" type="text/javascript"></script>
   </body>
 </html>
