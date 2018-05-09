@@ -9,7 +9,10 @@
     <!--<link href="./resources/css/jquery.mobile-1.4.5.min.css" rel="stylesheet"/>
     <script src="./resources/js/jquery-1.11.3.min.js"></script>
     <script src="./resources/js/jquery.mobile-1.4.5.min.js"></script>-->
-    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta charset="utf-8" content="width=device-width, initial-scale=1" name="viewport">
     <title>Lonestar MGA</title>
   </head>
   <body>
@@ -65,14 +68,15 @@
             <p>When quoting either of Lonestar's personal auto products (standard or limited) you can forget about your customer's Credit Score because Lonestar doesn't consider credit when determining the proper rate. Our rates are competitive for all regardless of credit.</p>
 
             <button class="learn-more">Find out how Lonestar MGA can save your customers money on their Auto Insurance.</button>
-            <button class="accordian">Discounts</button>
-              <div class="panel">
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Discounts</button>
+              <div id="demo" class="collapse">
                 <ol>
                   <li>Multi-Car Discount - 20%</li>
                   <li>Home Owner's Discount - 5%</li>
                   <li>Prior Coverage Discount - 15%</li>
                   <li>Renewal Discount - 6% (Every 6 Months)</li>
                   <li>Paid In Full Discount - 5% (Applies ONLY to 6-Month Policy Terms)</li>
+                </ol>
 
               </div>
           </div>
@@ -135,6 +139,6 @@
       </footer>
     </div>
 
-  <script src="./resources/js/accordian.js" type="text/javascript"></script>
+  <script src="./resources/js/accordion.js" type="text/javascript"></script>
   </body>
 </html>
